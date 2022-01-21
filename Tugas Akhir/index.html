@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This Is Food</title>
+    <link rel="stylesheet" href="model/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Secular One' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+</head>
+<body style="background-color:#DCDCDC">
+    <nav>
+        <div class="wrapper">
+            <div class="nama"><a href=''>This Is Food</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li> 
+					<li><a href="about.html">About</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#order">Order</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="login.html" class="tombol">Login</a></li>
+					<li><a href="signup.html" class="tombol">Sign Up</a></li>
+					<li><form action="" class="search-bar-container">
+						<input type="search" id="search-bar" placeholder="search here...">
+						<label for="search-bar" class="fas fa-search"></label>
+					</form></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!-- untuk home -->
+        <section id="home">
+            <img src="produk/home.jpg"/>
+            <div class="judul">
+                <h1>Here provides delicious food, let's order now...</h1>
+                <p><a href="#shop" class="tombol">Explore Menu</a></p>
+            </div>
+        </section><br><br>
+		
+		<!-- untuk shop -->
+		<section id="shop" style="background-image:url(produk/background.jpg)">
+            <div class="tengah">
+                <div class="judul">
+                    <h2>All Food</h2>
+                </div>
+			<div class="row">
+				<div class="column">
+					<div class="galery"><br>
+						<a href="#order"><img src="produk/pizza.jpg" alt="Cinque Terre" width="600" height="400"></a><br><br><br>
+						Pizza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Rp 90.000 <br><br><br>
+						<button class="buy"><a href="#order" style="color: white">Buy</a></button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="galery"><br>
+						<a href="#order"><img src="produk/burger.jpg" alt="Cinque Terre" width="600" height="400"></a><br><br><br>
+						Burger &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Rp 30.000 <br><br><br>
+						<button class="buy"><a href="#order" style="color: white">Buy</a></button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="galery"><br><br>
+						<a href="#order"><img src="produk/hotdog.jpg" alt="Cinque Terre" width="600" height="400"></a><br><br><br><br>
+						Hot Dog &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Rp 25.000 <br><br><br>
+						<button class="buy"><a href="#order" style="color: white">Buy</a></button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="galery"><br><br><br><br>
+						<a href="#order"><img src="produk/friedchiken.jpg" alt="Cinque Terre" width="600" height="400"></a><br><br><br><br><br><br>
+						Fried Chiken &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Rp 25.000 <br><br><br>
+						<button class="buy"><a href="#order" style="color: white">Buy</a></button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="galery">
+						<a href="#order"><img src="produk/escream.jpg" alt="Cinque Terre" width="600" height="400"></a><br><br>
+						Es Cream &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Rp 20.000 <br><br><br>
+						<button class="buy"><a href="#order" style="color: white">Buy</a></button>
+					</div>
+				</div>
+				<div class="column">
+					<div class="galery"><br>
+						<a href="#order"><img src="produk/cocacola.jpg" alt="Cinque Terre" width="600" height="400"></a><br><br><br>
+						Coca Cola &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp Rp 10.000 <br><br><br>
+						<button class="buy"><a href="#order" style="color: white">Buy</a></button>
+					</div>
+				</div>
+		</div><br><br><br>
+	</div>
+	</section><br><br>
+	
+    <!-- untuk partners -->
+    <section id="order" style="background-image:url(produk/background.jpg)">
+            <div class="tengah">
+                <div class="judul">
+                    <h2>Order Form</h2>
+                </div>
+			<form>
+			<div class="row">
+				<div class="col-25">
+					<label for="id_barang" style="background-color:white">Nama Produk</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="id_barang" name="id_barang"  placeholder="Masukkan Nama Produk">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="nama" style="background-color:white">Nama</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="nama" name="nama" placeholder="Masukkan Nama Anda">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="hp" style="background-color:white">Nomor HP</label>
+				</div>
+				<div class="col-75">
+					<input type="text" id="hp" name="hp" placeholder="Masukkan Nomer Hp Anda">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="jumlah" style="background-color:white">Jumlah</label>
+				</div>
+				<div class="col-75">
+					<select id="jumlah" name="jumlah">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="alamat" style="background-color:white">Alamat</label>
+				</div>
+				<div class="col-75">
+					<textarea type="text" id="alamat" name="alamat" placeholder="Masukkan Alamat Anda"></textarea>
+				</div>
+			</div><br><br>
+			<div class="row">
+				<input type="submit" name="submit" value="PESAN">		
+			</div><br><br><br><br>
+			</form>
+		</div>
+        </section><br><br>
+		
+	
+	<!-- untuk kontak -->
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section"><br><br><br>
+                    <h3  style="font-family: 'Carter One' ">Open Hourse</h3><br>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One''" > Monday............................9h|22h</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Tuesday............................9h|22h</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Wednesday.......................9h|22h</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Thesday............................9h|22h</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Friday...............................9h|22h</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Saturday...........................9h|22h</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Sunday.............................9h|22h</a>
+                </div>
+                <div class="footer-section"><br><br><br>
+                    <h3 style="font-family: 'Carter One' ">This Is Food</h3><br>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Pizza..........................Rp 90.000</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Burger.........................Rp 30.000</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Hot Dog......................Rp 25.000</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Fried Chiken................Rp 25.000</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Es Cream.....................Rp 20.000</a>
+						<a href="#" style="font-size: 15px; color: white; font-family: 'Secular One'"> Coca Cola....................Rp 10.000</a>
+                </div>
+                <div class="footer-section"><br><br><br>
+                    <h3  style="font-family: 'Carter One' ">Contact</h3><br>
+                    <a href="#"> <i class="fas fa-arrow-right"></i> <img src="kontak/ig.jpg" width="50" height="50"></a><br>
+					<a href="#"> <i class="fas fa-arrow-right"></i> <img src="kontak/wa.jpg" width="50" height="50"></a><br>
+					<a href="#"> <i class="fas fa-arrow-right"></i> <img src="kontak/twitter.jpg" width="50" height="50"></a>
+                </div>
+            </div><br><br><br><br><br>
+        </div>
+    </div>
+
+    
+</body>
+</html>

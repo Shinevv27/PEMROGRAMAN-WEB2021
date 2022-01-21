@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>This Is Food</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Secular One' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Carter One' rel='stylesheet'>
+<style >
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+	font-family: 'Secular One';
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.nama a {
+    font-size: 30px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: white;
+	font-family: 'Carter One';
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 55px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background:black;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    background: black;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+	background: #DCDCDC;
+}
+header .search-bar-container{
+    position: absolute;
+    top: 100%; left: 0;right: 0;
+    padding: 10px 15px;
+    background: #B7CDB5;
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    clip-path: polygon(0 0,100% 0,100% 0,0 0);
+}
+header .search-bar-container.active{
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+}
+header .search-bar-container #search-bar{
+    width: 100%;
+    padding: 3px 6px;
+    text-transform: none;
+    color: black;
+    font-size: 15px;
+    border-radius: 2px;
+}
+header .search-bar-container label{
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 10px;
+}
+header .search-bar-container label:hover{
+    color: white;
+}
+
+
+
+.box{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	height: 780px;
+	background-image:url(bg/bg2.jpg);
+	align-items: center;
+}
+.signup{
+	background-color: white;
+	width: 500px;
+	text-align: left;
+	padding: 100px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.signup h2{
+    font-family: 'Secular One';
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    width: 100%;
+    line-height: 40px;
+	margin-top: 5px;
+}
+.signup .input-group{
+	position: relative;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.signup .input-group input{
+	height: 40px;
+	width: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+	fond-size: 18px;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#signup {
+    color: black;
+    font-family: 'Secular One';
+    font-size: 12pt;
+    margin-top: 16px;
+    text-align: center;
+}
+#submit-btn {
+	font-family: 'Secular One';
+	background: black;
+    border-radius: 10px;
+    margin-top: 0px;
+    padding: 5px 20px 5px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+	font-size: 12pt;
+    height: 40px;
+    width: 300px;
+}
+#submit-btn:hover {
+    background: #DCDCDC;
+    text-decoration: none;
+}
+/* Set a style for all buttons */
+button {
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  font-size: 12pt;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#hai {
+    color: white;
+    font-family: 'Secular One';
+    font-size: 14pt;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.9;
+}
+}
+#submit-btn:hover {
+    background: #DCDCDC;
+    text-decoration: none;
+}
+</style>
+<body>
+<nav>
+        <div class="wrapper">
+            <div class="nama"><a href=''>This Is Food</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+                    <li><a href="login.html" class="tombol">Login</a></li>
+					<li><a href="signup.html" class="tombol">Sign Up</a></li>
+					<li><form action="" class="search-bar-container">
+						<input type="search" id="search-bar" placeholder="search here...">
+						<label for="search-bar" class="fas fa-search"></label>
+					</form></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<div class="box">
+	<div class="signup">
+	<hr size="5spx" width="100%" style="background-color: black;"><h2 align="center">SIGN UP<h2><hr size="5spx" width="100%" style="background-color: black;"><br>
+		<div class="input-group">
+			Full Name 
+			<input type="text" placeholder="Enter your Full Name" >
+		</div>
+		<div class="input-group">
+			Email
+			<input type="text" placeholder="Enter your Email">
+		</div>
+		<div class="input-group">
+			Password
+			<input  type="password" placeholder="Enter your Password">
+		</div><br>
+		<button type="submit"><a id="hai" href="index.html">SIGN UP</a></button><br>
+		<label>
+		<input id="signup" type="checkbox" checked="checked" name="remember"> Remember me
+		</label><br>
+		<a href="login.html" id="signup">Sudah punya akun masuk</a><br>
+	</form>
+</div>
+</body>
+</body>
+</html>
